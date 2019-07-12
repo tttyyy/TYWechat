@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B05E36C22D869DC00278378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E36B22D869DC00278378 /* AppDelegate.swift */; };
+		8B05E36E22D869DC00278378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E36D22D869DC00278378 /* ViewController.swift */; };
+		8B05E37122D869DC00278378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B05E36F22D869DC00278378 /* Main.storyboard */; };
+		8B05E37322D869DE00278378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B05E37222D869DE00278378 /* Assets.xcassets */; };
+		8B05E37622D869DE00278378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B05E37422D869DE00278378 /* LaunchScreen.storyboard */; };
+		8B05E38122D869DE00278378 /* TYWechatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E38022D869DE00278378 /* TYWechatTests.swift */; };
+		8B05E38C22D869DE00278378 /* TYWechatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E38B22D869DE00278378 /* TYWechatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B05E37D22D869DE00278378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B05E36022D869DC00278378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B05E36722D869DC00278378;
+			remoteInfo = TYWechat;
+		};
+		8B05E38822D869DE00278378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B05E36022D869DC00278378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B05E36722D869DC00278378;
+			remoteInfo = TYWechat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B05E36822D869DC00278378 /* TYWechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYWechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B05E36B22D869DC00278378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B05E36D22D869DC00278378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B05E37022D869DC00278378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B05E37222D869DE00278378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B05E37522D869DE00278378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B05E37722D869DE00278378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B05E37C22D869DE00278378 /* TYWechatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYWechatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B05E38022D869DE00278378 /* TYWechatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYWechatTests.swift; sourceTree = "<group>"; };
+		8B05E38222D869DE00278378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B05E38722D869DE00278378 /* TYWechatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYWechatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B05E38B22D869DE00278378 /* TYWechatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYWechatUITests.swift; sourceTree = "<group>"; };
+		8B05E38D22D869DE00278378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B05E36522D869DC00278378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05E37922D869DE00278378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05E38422D869DE00278378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B05E35F22D869DC00278378 = {
+			isa = PBXGroup;
+			children = (
+				8B05E36A22D869DC00278378 /* TYWechat */,
+				8B05E37F22D869DE00278378 /* TYWechatTests */,
+				8B05E38A22D869DE00278378 /* TYWechatUITests */,
+				8B05E36922D869DC00278378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B05E36922D869DC00278378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B05E36822D869DC00278378 /* TYWechat.app */,
+				8B05E37C22D869DE00278378 /* TYWechatTests.xctest */,
+				8B05E38722D869DE00278378 /* TYWechatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B05E36A22D869DC00278378 /* TYWechat */ = {
+			isa = PBXGroup;
+			children = (
+				8B05E36B22D869DC00278378 /* AppDelegate.swift */,
+				8B05E36D22D869DC00278378 /* ViewController.swift */,
+				8B05E36F22D869DC00278378 /* Main.storyboard */,
+				8B05E37222D869DE00278378 /* Assets.xcassets */,
+				8B05E37422D869DE00278378 /* LaunchScreen.storyboard */,
+				8B05E37722D869DE00278378 /* Info.plist */,
+			);
+			path = TYWechat;
+			sourceTree = "<group>";
+		};
+		8B05E37F22D869DE00278378 /* TYWechatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B05E38022D869DE00278378 /* TYWechatTests.swift */,
+				8B05E38222D869DE00278378 /* Info.plist */,
+			);
+			path = TYWechatTests;
+			sourceTree = "<group>";
+		};
+		8B05E38A22D869DE00278378 /* TYWechatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B05E38B22D869DE00278378 /* TYWechatUITests.swift */,
+				8B05E38D22D869DE00278378 /* Info.plist */,
+			);
+			path = TYWechatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B05E36722D869DC00278378 /* TYWechat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B05E39022D869DE00278378 /* Build configuration list for PBXNativeTarget "TYWechat" */;
+			buildPhases = (
+				8B05E36422D869DC00278378 /* Sources */,
+				8B05E36522D869DC00278378 /* Frameworks */,
+				8B05E36622D869DC00278378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYWechat;
+			productName = TYWechat;
+			productReference = 8B05E36822D869DC00278378 /* TYWechat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B05E37B22D869DE00278378 /* TYWechatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B05E39322D869DE00278378 /* Build configuration list for PBXNativeTarget "TYWechatTests" */;
+			buildPhases = (
+				8B05E37822D869DE00278378 /* Sources */,
+				8B05E37922D869DE00278378 /* Frameworks */,
+				8B05E37A22D869DE00278378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B05E37E22D869DE00278378 /* PBXTargetDependency */,
+			);
+			name = TYWechatTests;
+			productName = TYWechatTests;
+			productReference = 8B05E37C22D869DE00278378 /* TYWechatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B05E38622D869DE00278378 /* TYWechatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B05E39622D869DE00278378 /* Build configuration list for PBXNativeTarget "TYWechatUITests" */;
+			buildPhases = (
+				8B05E38322D869DE00278378 /* Sources */,
+				8B05E38422D869DE00278378 /* Frameworks */,
+				8B05E38522D869DE00278378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B05E38922D869DE00278378 /* PBXTargetDependency */,
+			);
+			name = TYWechatUITests;
+			productName = TYWechatUITests;
+			productReference = 8B05E38722D869DE00278378 /* TYWechatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B05E36022D869DC00278378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = hycloud;
+				TargetAttributes = {
+					8B05E36722D869DC00278378 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					8B05E37B22D869DE00278378 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 8B05E36722D869DC00278378;
+					};
+					8B05E38622D869DE00278378 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 8B05E36722D869DC00278378;
+					};
+				};
+			};
+			buildConfigurationList = 8B05E36322D869DC00278378 /* Build configuration list for PBXProject "TYWechat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B05E35F22D869DC00278378;
+			productRefGroup = 8B05E36922D869DC00278378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B05E36722D869DC00278378 /* TYWechat */,
+				8B05E37B22D869DE00278378 /* TYWechatTests */,
+				8B05E38622D869DE00278378 /* TYWechatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B05E36622D869DC00278378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B05E37622D869DE00278378 /* LaunchScreen.storyboard in Resources */,
+				8B05E37322D869DE00278378 /* Assets.xcassets in Resources */,
+				8B05E37122D869DC00278378 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05E37A22D869DE00278378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05E38522D869DE00278378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B05E36422D869DC00278378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B05E36E22D869DC00278378 /* ViewController.swift in Sources */,
+				8B05E36C22D869DC00278378 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05E37822D869DE00278378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B05E38122D869DE00278378 /* TYWechatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05E38322D869DE00278378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B05E38C22D869DE00278378 /* TYWechatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B05E37E22D869DE00278378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B05E36722D869DC00278378 /* TYWechat */;
+			targetProxy = 8B05E37D22D869DE00278378 /* PBXContainerItemProxy */;
+		};
+		8B05E38922D869DE00278378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B05E36722D869DC00278378 /* TYWechat */;
+			targetProxy = 8B05E38822D869DE00278378 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B05E36F22D869DC00278378 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B05E37022D869DC00278378 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B05E37422D869DE00278378 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B05E37522D869DE00278378 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B05E38E22D869DE00278378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B05E38F22D869DE00278378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B05E39122D869DE00278378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X6JXA53MM;
+				INFOPLIST_FILE = TYWechat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.houyicloud.TYWechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B05E39222D869DE00278378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X6JXA53MM;
+				INFOPLIST_FILE = TYWechat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.houyicloud.TYWechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B05E39422D869DE00278378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X6JXA53MM;
+				INFOPLIST_FILE = TYWechatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.houyicloud.TYWechatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYWechat.app/TYWechat";
+			};
+			name = Debug;
+		};
+		8B05E39522D869DE00278378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X6JXA53MM;
+				INFOPLIST_FILE = TYWechatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.houyicloud.TYWechatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYWechat.app/TYWechat";
+			};
+			name = Release;
+		};
+		8B05E39722D869DE00278378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X6JXA53MM;
+				INFOPLIST_FILE = TYWechatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.houyicloud.TYWechatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYWechat;
+			};
+			name = Debug;
+		};
+		8B05E39822D869DE00278378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X6JXA53MM;
+				INFOPLIST_FILE = TYWechatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.houyicloud.TYWechatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYWechat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B05E36322D869DC00278378 /* Build configuration list for PBXProject "TYWechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B05E38E22D869DE00278378 /* Debug */,
+				8B05E38F22D869DE00278378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B05E39022D869DE00278378 /* Build configuration list for PBXNativeTarget "TYWechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B05E39122D869DE00278378 /* Debug */,
+				8B05E39222D869DE00278378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B05E39322D869DE00278378 /* Build configuration list for PBXNativeTarget "TYWechatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B05E39422D869DE00278378 /* Debug */,
+				8B05E39522D869DE00278378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B05E39622D869DE00278378 /* Build configuration list for PBXNativeTarget "TYWechatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B05E39722D869DE00278378 /* Debug */,
+				8B05E39822D869DE00278378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B05E36022D869DC00278378 /* Project object */;
+}
