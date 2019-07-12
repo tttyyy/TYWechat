@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FB296D1C543ACA89207838196BB823E7 /* Build configuration list for PBXAggregateTarget "SwiftGen" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftGen;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		016AA130806F64C8762F6B401BA61EC3 /* UITableView+TSiOS7SettingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC89CD16260035453B43D24B4192B2 /* UITableView+TSiOS7SettingStyle.swift */; };
+		0CA3EF72AF44D86609D9A8422011C27C /* Dictionary+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178350134F6768F4E9B410881261C1B /* Dictionary+TSExtension.swift */; };
+		111F516D4975DD54E66008AAB50A95B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F4D40DDE4C09E0F960CE8723DF05B /* UIKit.framework */; };
+		127111952E0EC35F1A65A5DD50F16958 /* UIAlertController+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9DF56EA0620B693FE06F76AE5F766 /* UIAlertController+TSExtension.swift */; };
+		14B797C150975B7C83F36B4092B651B8 /* UIImage+TSOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40610B3052D9EA51777E18AE8FC8C4 /* UIImage+TSOrientation.swift */; };
+		16390ED0E3AE7422991BF2FB8F33B38B /* CGSize+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6979670304EEFA4B719CE909FB9FC6FF /* CGSize+TSExtension.swift */; };
+		181A04C60A19471588C6151F3D6BE15E /* UITableView+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1FF96285060384C57D17FEFCC091A /* UITableView+TSExtension.swift */; };
+		194295C615D344CCDF02391FEBD49864 /* NSString+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA93CC874E04D705B0873D47A607FF /* NSString+TSExtension.swift */; };
+		1E09F3EA18362E4D3066425724BB5526 /* NSRange+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB70537D1A5E41C8A3C387DA78C210F /* NSRange+TSExtension.swift */; };
+		248B81ABC4D8BF8554F798C50DE1D8E2 /* UIView+TSFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1339ED8647BD4C2BFD5642CCC29F16FD /* UIView+TSFrame.swift */; };
+		24F1D444335D324509DFC6CA213097FF /* UIDevice+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F113BEA733CBA21DC00D258369A51 /* UIDevice+TSExtension.swift */; };
+		2BEA8250F38DDF7BF0F7D4CB0CA05F1E /* NSObject+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8084434558752FCBC29486ACA574F /* NSObject+TSExtension.swift */; };
+		2E975EC213632ED8AF2EAFB74E581ED4 /* UIViewController+TSVisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E28C649C99F58083FED832158A100 /* UIViewController+TSVisible.swift */; };
+		3360F73C30254D9905F180652E396EE6 /* Pods-TYWechat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46628C4B5AD6AEB25FB646D568C49332 /* Pods-TYWechat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3495AB518B228C93749118C841488A26 /* Bundle+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353DF444ABAB34916D7A7EC2B7A0252B /* Bundle+TSExtension.swift */; };
+		37E6319BB3A4821B9C27F84A040FAEBD /* UIImage+TSResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBF30BFB7AE2581CC3F9A9FC0681585 /* UIImage+TSResize.swift */; };
+		3C20DDF6D2B630EC6944C9A7A2361B1A /* UIViewController+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5D5897227C299C0AA12C5E753975B /* UIViewController+TSExtension.swift */; };
+		3EF4D3BA3E3BAA8FD37CFA120F2BCAB5 /* UIImage+TSLaunchImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1FC99E52F1EA0EFDAF6FD74FEF2A7 /* UIImage+TSLaunchImage.swift */; };
+		4313B35198A9042F2AD1FCC3292197B4 /* UIDevice+TSType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FD353924280AF07B031577C370E60 /* UIDevice+TSType.swift */; };
+		4AFD6D07E3865E7534090C758C33A239 /* UINavigationController+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82141B3DD29EE9D332A65588EE7EAEDB /* UINavigationController+TSExtension.swift */; };
+		4F810E105F8F113660929FA915BCA3D9 /* NSDictionary+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8584DE4C56A2458927B1C8C9C086D /* NSDictionary+TSExtension.swift */; };
+		536B1B7D17F096B4495C4CC4F56C3B62 /* UIScrollView+TSPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5432F303249DE2B96C846A79A4F7F7D6 /* UIScrollView+TSPage.swift */; };
+		554030F32858A15D65DE1CB8F06F0003 /* IndexPath+TSOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41747F83B4256A46D447FC049B89FCBC /* IndexPath+TSOffset.swift */; };
+		56411F219F78921B370AD53F7BC19760 /* Array+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A59D8E04997698C12AB1D804923C61 /* Array+TSExtension.swift */; };
+		56BCA6D772B0063FEA68AB2F980A9B8D /* UILabel+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09D9863546513544ECE13268E1A00CD /* UILabel+TSExtension.swift */; };
+		59F8DA7211395682122F544B4C2913FA /* DispatchQueue+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C923EDE5C1A302232E3E57E019A0DC /* DispatchQueue+TSExtension.swift */; };
+		5C53D2EB9C98463B8EFE069DB9298B59 /* UIColor+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9164EEFFA8F86B4995E311D4503075 /* UIColor+TSExtension.swift */; };
+		5C61CA14C0A923888841B26B313207C9 /* TimedSilverHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3DA65DD27E375A56F0C3FAF92501AE /* TimedSilverHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6095481B0C62738222E8CA49E30EB240 /* UIControl+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2C5671E11B8279F45221310117FA47 /* UIControl+TSExtension.swift */; };
+		61538E8476ADA6983DB7573AB2DB8020 /* UIView+TSGestureBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857105096649F520964ECF0BBB2214B /* UIView+TSGestureBlock.swift */; };
+		62929B60F2F6671D0C0D3B687B74B5A9 /* UICollectionView+TSGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B2334507FF59772F20A96D5131C626 /* UICollectionView+TSGeneric.swift */; };
+		6AB33096314A9FBEEAD2C4801DC84FDF /* UIApplication+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03CDD7D64C785BF4E74FFE21B2D501 /* UIApplication+TSExtension.swift */; };
+		6AB4B607FAC3C2413B4EB3A77831F748 /* UICollectionView+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AA5813D1EBD34198D9E63558226CDA /* UICollectionView+TSExtension.swift */; };
+		76B4E89DC5F195F33074B7757ADD8B0B /* UserDefaults+TSArchiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AA88D98931E3EB95A63D4A87DC1E12 /* UserDefaults+TSArchiveData.swift */; };
+		7768B4243BE14F6C655D88E6B6431FE5 /* Timer+TSBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50970661F3E3F67D130D4A8814A9E7C /* Timer+TSBlock.swift */; };
+		77E6546FFF6720C2E90CC592BBF5939F /* String+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F68C05178163F8322B610EB5F1094F1 /* String+TSExtension.swift */; };
+		7955FA28F2A92F4DA7F9A6BE1E43517D /* UIImage+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FE7EB949D9B739AE591201F372775 /* UIImage+TSExtension.swift */; };
+		7D033B8E2FF418BFAFDC1FFD9513233A /* Data+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD81F6BAD6F62747DEBC816383B932 /* Data+TSExtension.swift */; };
+		811A9F9424E89B7339BC8C6BA8908FD2 /* UIControl+TSSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7719201E3B98DF9C66327ED0FD921F5 /* UIControl+TSSound.swift */; };
+		8800B1D5FABAAE6F7CF06E0B51CD4121 /* String+TSCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9834584906532AE8FCBEAF7438F9E6B4 /* String+TSCrypto.swift */; };
+		891355A6F78CE77CDD4491FC4F92FD35 /* UIScreen+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5370B77DE174352996C9A7E6DFE9D0B3 /* UIScreen+TSExtension.swift */; };
+		893CF7B0459C5BFDB538E71F7887339B /* UIView+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C55619832E0FD4A1873A0BD143193 /* UIView+TSExtension.swift */; };
+		945A9EAD833F781C0ECB1C6770717EA6 /* UIButton+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E99D15D2B7DFEB5AD6793C82DAC8D /* UIButton+TSExtension.swift */; };
+		9EC1088272BCF7E459A82CEAE3DE8441 /* URLRequest+TScURLCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186F04B2D2301C7BF05BF16FC02D4AF /* URLRequest+TScURLCommand.swift */; };
+		A2FCDE3F816F98AA3B07B4693BDD6209 /* NotificationCenter+TSBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C499DC78AC82CCBBDB982B64DD7DF /* NotificationCenter+TSBlock.swift */; };
+		A4EA4861A75422FBE228AEE58ABC14F7 /* UserDefaults+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F012F7F988FC1B6FB1CF70847F2ACD /* UserDefaults+TSExtension.swift */; };
+		B45E89BA82ECABB84B3645AE7AB2D6C9 /* UIButton+TSTouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB462F92CF565868C6F3E80E1AE65610 /* UIButton+TSTouchArea.swift */; };
+		BA7F4F326BAD7B3FD41EBCF8CE321A5D /* Pods-TYWechat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45681B2DC3BD7B68DA15D436A8338819 /* Pods-TYWechat-dummy.m */; };
+		BC3424362843615A95A1F6DBF2DE89AC /* Double+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427F5AB454D6C7BFEF55C80399750510 /* Double+TSExtension.swift */; };
+		BE840B40C9BFE639888179B763F46C41 /* FileManager+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B337C1F5C684E9163AC6EFA913348F /* FileManager+TSExtension.swift */; };
+		C13F73C0ED683DCE601B7EE42EDAA406 /* IndexSet+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466541C9D2EA2F6BF4799683D45A2368 /* IndexSet+TSExtension.swift */; };
+		C16668DFB44BED3810F67FD1AD6F5C9E /* UITableView+TSGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A2FE995B343D36447F82BD02DABC4 /* UITableView+TSGeneric.swift */; };
+		C42A18D6C89B01B8D36E37D4B51E3BDF /* UIWindow+TSHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93488BF7878A6FFD7BD11AFECACA469 /* UIWindow+TSHierarchy.swift */; };
+		CBCB13512BD430FD0DDC19ADC6404E10 /* UIScrollView+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B48A09F5DDC4E2488E915D6B6CFF4 /* UIScrollView+TSExtension.swift */; };
+		D02A5D977A3FFBE3B37C73C671A2BAC5 /* TimedSilver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CB4BADBD142AF92C6474DF188C39B7 /* TimedSilver-dummy.m */; };
+		D2A950CE84265F4432FABC747F820AD3 /* UIImage+TSRoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C9B6F44F1E53B70833FD92271F24FD /* UIImage+TSRoundedCorner.swift */; };
+		D7AA3ABD7CF79AA56514844FBDE75845 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25DDB89E0E6C0B8D9E8E5C981FF6AE2 /* QuartzCore.framework */; };
+		D931767A8DAC09D0FC03506AD255DBC3 /* Date+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AB02191580B69F2ACCBD5B29CE483 /* Date+TSExtension.swift */; };
+		D9847818C551763B103951C2D4563530 /* TimedSilver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6888FB7B610A5A19975211F1B348F57 /* TimedSilver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF3241F1CDED32C97E79BCEB9FC55E1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279138F4E945D7E64ACF16E4D4FF3283 /* Foundation.framework */; };
+		EC9B8F82491F4565D3E1CB31E2717B26 /* UINavigationItem+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8648903280F6FC81DF8EE6374B9ECC /* UINavigationItem+TSExtension.swift */; };
+		FA68E1A6E8F99BA9C33DFC270C4CB4B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279138F4E945D7E64ACF16E4D4FF3283 /* Foundation.framework */; };
+		FBD558DA211A366862E4F6A9586F80D3 /* UISearchBar+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F0ED39B3FD02B8836E3032DF600590 /* UISearchBar+TSExtension.swift */; };
+		FD92E13E2635989098F06A4C12B7D2B5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13432508CCC4BAC877F540434BD497A5 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C0BC9D041C513E50FFE9DB946531573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
+		};
+		B27825831EE45BDB39C27B7C2D8CD438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775343111F78DE81C288C6D616398C55;
+			remoteInfo = TimedSilver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C5D5897227C299C0AA12C5E753975B /* UIViewController+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+TSExtension.swift"; path = "Sources/UIKit/UIViewController+TSExtension.swift"; sourceTree = "<group>"; };
+		0AE8584DE4C56A2458927B1C8C9C086D /* NSDictionary+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDictionary+TSExtension.swift"; path = "Sources/Foundation/NSDictionary+TSExtension.swift"; sourceTree = "<group>"; };
+		0C03CDD7D64C785BF4E74FFE21B2D501 /* UIApplication+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+TSExtension.swift"; path = "Sources/UIKit/UIApplication+TSExtension.swift"; sourceTree = "<group>"; };
+		0D2C5671E11B8279F45221310117FA47 /* UIControl+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+TSExtension.swift"; path = "Sources/UIKit/UIControl+TSExtension.swift"; sourceTree = "<group>"; };
+		0D7C499DC78AC82CCBBDB982B64DD7DF /* NotificationCenter+TSBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NotificationCenter+TSBlock.swift"; path = "Sources/Foundation/NotificationCenter+TSBlock.swift"; sourceTree = "<group>"; };
+		0F68C05178163F8322B610EB5F1094F1 /* String+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+TSExtension.swift"; path = "Sources/Struct/String+TSExtension.swift"; sourceTree = "<group>"; };
+		0F8934104AA455445CC42C89B62CF3F1 /* SwiftGen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.xcconfig; sourceTree = "<group>"; };
+		11A59D8E04997698C12AB1D804923C61 /* Array+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+TSExtension.swift"; path = "Sources/Struct/Array+TSExtension.swift"; sourceTree = "<group>"; };
+		12AA5813D1EBD34198D9E63558226CDA /* UICollectionView+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+TSExtension.swift"; path = "Sources/UIKit/UICollectionView+TSExtension.swift"; sourceTree = "<group>"; };
+		1339ED8647BD4C2BFD5642CCC29F16FD /* UIView+TSFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+TSFrame.swift"; path = "Sources/UIKit/UIView+TSFrame.swift"; sourceTree = "<group>"; };
+		13432508CCC4BAC877F540434BD497A5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		279138F4E945D7E64ACF16E4D4FF3283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		28970D287ABADCCCDA855F017A390D3B /* Pods_TYWechat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TYWechat.framework; path = "Pods-TYWechat.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3140939ED9ACDD83B41FA470C50B260C /* Pods-TYWechat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYWechat-frameworks.sh"; sourceTree = "<group>"; };
+		353DF444ABAB34916D7A7EC2B7A0252B /* Bundle+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+TSExtension.swift"; path = "Sources/Foundation/Bundle+TSExtension.swift"; sourceTree = "<group>"; };
+		375AC3470D17D8D7E7B0097402389EA3 /* TimedSilver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimedSilver-prefix.pch"; sourceTree = "<group>"; };
+		3B2F113BEA733CBA21DC00D258369A51 /* UIDevice+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+TSExtension.swift"; path = "Sources/UIKit/UIDevice+TSExtension.swift"; sourceTree = "<group>"; };
+		41747F83B4256A46D447FC049B89FCBC /* IndexPath+TSOffset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexPath+TSOffset.swift"; path = "Sources/Foundation/IndexPath+TSOffset.swift"; sourceTree = "<group>"; };
+		427F5AB454D6C7BFEF55C80399750510 /* Double+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+TSExtension.swift"; path = "Sources/Struct/Double+TSExtension.swift"; sourceTree = "<group>"; };
+		43FD81F6BAD6F62747DEBC816383B932 /* Data+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+TSExtension.swift"; path = "Sources/Foundation/Data+TSExtension.swift"; sourceTree = "<group>"; };
+		45681B2DC3BD7B68DA15D436A8338819 /* Pods-TYWechat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYWechat-dummy.m"; sourceTree = "<group>"; };
+		46628C4B5AD6AEB25FB646D568C49332 /* Pods-TYWechat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYWechat-umbrella.h"; sourceTree = "<group>"; };
+		466541C9D2EA2F6BF4799683D45A2368 /* IndexSet+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexSet+TSExtension.swift"; path = "Sources/Foundation/IndexSet+TSExtension.swift"; sourceTree = "<group>"; };
+		4DEA93CC874E04D705B0873D47A607FF /* NSString+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+TSExtension.swift"; path = "Sources/Foundation/NSString+TSExtension.swift"; sourceTree = "<group>"; };
+		4FFC89CD16260035453B43D24B4192B2 /* UITableView+TSiOS7SettingStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+TSiOS7SettingStyle.swift"; path = "Sources/UIKit/UITableView+TSiOS7SettingStyle.swift"; sourceTree = "<group>"; };
+		5370B77DE174352996C9A7E6DFE9D0B3 /* UIScreen+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+TSExtension.swift"; path = "Sources/UIKit/UIScreen+TSExtension.swift"; sourceTree = "<group>"; };
+		5432F303249DE2B96C846A79A4F7F7D6 /* UIScrollView+TSPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+TSPage.swift"; path = "Sources/UIKit/UIScrollView+TSPage.swift"; sourceTree = "<group>"; };
+		56CC04927CFF0F111AE8871E470933CF /* TimedSilver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TimedSilver-Info.plist"; sourceTree = "<group>"; };
+		5A9164EEFFA8F86B4995E311D4503075 /* UIColor+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+TSExtension.swift"; path = "Sources/UIKit/UIColor+TSExtension.swift"; sourceTree = "<group>"; };
+		5F5A2FE995B343D36447F82BD02DABC4 /* UITableView+TSGeneric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+TSGeneric.swift"; path = "Sources/UIKit/UITableView+TSGeneric.swift"; sourceTree = "<group>"; };
+		5F8C55619832E0FD4A1873A0BD143193 /* UIView+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+TSExtension.swift"; path = "Sources/UIKit/UIView+TSExtension.swift"; sourceTree = "<group>"; };
+		621AB02191580B69F2ACCBD5B29CE483 /* Date+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+TSExtension.swift"; path = "Sources/Foundation/Date+TSExtension.swift"; sourceTree = "<group>"; };
+		67D8084434558752FCBC29486ACA574F /* NSObject+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+TSExtension.swift"; path = "Sources/Foundation/NSObject+TSExtension.swift"; sourceTree = "<group>"; };
+		6979670304EEFA4B719CE909FB9FC6FF /* CGSize+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+TSExtension.swift"; path = "Sources/Struct/CGSize+TSExtension.swift"; sourceTree = "<group>"; };
+		69B2334507FF59772F20A96D5131C626 /* UICollectionView+TSGeneric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+TSGeneric.swift"; path = "Sources/UIKit/UICollectionView+TSGeneric.swift"; sourceTree = "<group>"; };
+		6F84A3369B0B19A3CC560100553A8376 /* Pods-TYWechat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYWechat-acknowledgements.plist"; sourceTree = "<group>"; };
+		72F0ED39B3FD02B8836E3032DF600590 /* UISearchBar+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISearchBar+TSExtension.swift"; path = "Sources/UIKit/UISearchBar+TSExtension.swift"; sourceTree = "<group>"; };
+		75F1FC99E52F1EA0EFDAF6FD74FEF2A7 /* UIImage+TSLaunchImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+TSLaunchImage.swift"; path = "Sources/UIKit/UIImage+TSLaunchImage.swift"; sourceTree = "<group>"; };
+		82141B3DD29EE9D332A65588EE7EAEDB /* UINavigationController+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+TSExtension.swift"; path = "Sources/UIKit/UINavigationController+TSExtension.swift"; sourceTree = "<group>"; };
+		82AA88D98931E3EB95A63D4A87DC1E12 /* UserDefaults+TSArchiveData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserDefaults+TSArchiveData.swift"; path = "Sources/Foundation/UserDefaults+TSArchiveData.swift"; sourceTree = "<group>"; };
+		83CB4BADBD142AF92C6474DF188C39B7 /* TimedSilver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimedSilver-dummy.m"; sourceTree = "<group>"; };
+		85F012F7F988FC1B6FB1CF70847F2ACD /* UserDefaults+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserDefaults+TSExtension.swift"; path = "Sources/Foundation/UserDefaults+TSExtension.swift"; sourceTree = "<group>"; };
+		914B48A09F5DDC4E2488E915D6B6CFF4 /* UIScrollView+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+TSExtension.swift"; path = "Sources/UIKit/UIScrollView+TSExtension.swift"; sourceTree = "<group>"; };
+		9186F04B2D2301C7BF05BF16FC02D4AF /* URLRequest+TScURLCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+TScURLCommand.swift"; path = "Sources/Foundation/URLRequest+TScURLCommand.swift"; sourceTree = "<group>"; };
+		94717ABCCEE60261C3F8F86247D62BCF /* TimedSilver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TimedSilver.modulemap; sourceTree = "<group>"; };
+		961FD353924280AF07B031577C370E60 /* UIDevice+TSType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+TSType.swift"; path = "Sources/UIKit/UIDevice+TSType.swift"; sourceTree = "<group>"; };
+		9834584906532AE8FCBEAF7438F9E6B4 /* String+TSCrypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+TSCrypto.swift"; path = "Sources/Struct/String+TSCrypto.swift"; sourceTree = "<group>"; };
+		9857105096649F520964ECF0BBB2214B /* UIView+TSGestureBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+TSGestureBlock.swift"; path = "Sources/UIKit/UIView+TSGestureBlock.swift"; sourceTree = "<group>"; };
+		9D40610B3052D9EA51777E18AE8FC8C4 /* UIImage+TSOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+TSOrientation.swift"; path = "Sources/UIKit/UIImage+TSOrientation.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A178350134F6768F4E9B410881261C1B /* Dictionary+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+TSExtension.swift"; path = "Sources/Struct/Dictionary+TSExtension.swift"; sourceTree = "<group>"; };
+		A31FE7EB949D9B739AE591201F372775 /* UIImage+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+TSExtension.swift"; path = "Sources/UIKit/UIImage+TSExtension.swift"; sourceTree = "<group>"; };
+		A50970661F3E3F67D130D4A8814A9E7C /* Timer+TSBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Timer+TSBlock.swift"; path = "Sources/Foundation/Timer+TSBlock.swift"; sourceTree = "<group>"; };
+		A8C923EDE5C1A302232E3E57E019A0DC /* DispatchQueue+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+TSExtension.swift"; path = "Sources/Foundation/DispatchQueue+TSExtension.swift"; sourceTree = "<group>"; };
+		A9D1FF96285060384C57D17FEFCC091A /* UITableView+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+TSExtension.swift"; path = "Sources/UIKit/UITableView+TSExtension.swift"; sourceTree = "<group>"; };
+		B76E99D15D2B7DFEB5AD6793C82DAC8D /* UIButton+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+TSExtension.swift"; path = "Sources/UIKit/UIButton+TSExtension.swift"; sourceTree = "<group>"; };
+		BC6A2889E3E960B281460C5BC1F745B3 /* Pods-TYWechat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYWechat.modulemap"; sourceTree = "<group>"; };
+		BFBF30BFB7AE2581CC3F9A9FC0681585 /* UIImage+TSResize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+TSResize.swift"; path = "Sources/UIKit/UIImage+TSResize.swift"; sourceTree = "<group>"; };
+		C9B9DF56EA0620B693FE06F76AE5F766 /* UIAlertController+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+TSExtension.swift"; path = "Sources/UIKit/UIAlertController+TSExtension.swift"; sourceTree = "<group>"; };
+		CAB70537D1A5E41C8A3C387DA78C210F /* NSRange+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRange+TSExtension.swift"; path = "Sources/Foundation/NSRange+TSExtension.swift"; sourceTree = "<group>"; };
+		CC3D23344396BC719CF748433C21A698 /* Pods-TYWechat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYWechat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE3DA65DD27E375A56F0C3FAF92501AE /* TimedSilverHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimedSilverHeader.h; path = Sources/TimedSilverHeader.h; sourceTree = "<group>"; };
+		D93488BF7878A6FFD7BD11AFECACA469 /* UIWindow+TSHierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+TSHierarchy.swift"; path = "Sources/UIKit/UIWindow+TSHierarchy.swift"; sourceTree = "<group>"; };
+		DA9087280A02EF781BE60EEE190D0F92 /* TimedSilver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimedSilver.framework; path = TimedSilver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0E0778DAF5CB9D0AAA904EECA2D5B8 /* Pods-TYWechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYWechat.release.xcconfig"; sourceTree = "<group>"; };
+		DF8648903280F6FC81DF8EE6374B9ECC /* UINavigationItem+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationItem+TSExtension.swift"; path = "Sources/UIKit/UINavigationItem+TSExtension.swift"; sourceTree = "<group>"; };
+		E02F4D40DDE4C09E0F960CE8723DF05B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E09D9863546513544ECE13268E1A00CD /* UILabel+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+TSExtension.swift"; path = "Sources/UIKit/UILabel+TSExtension.swift"; sourceTree = "<group>"; };
+		E25DDB89E0E6C0B8D9E8E5C981FF6AE2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		EAB7EBBA8A41C8C4F6A80750E7CD6324 /* TimedSilver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimedSilver.xcconfig; sourceTree = "<group>"; };
+		F1C9B6F44F1E53B70833FD92271F24FD /* UIImage+TSRoundedCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+TSRoundedCorner.swift"; path = "Sources/UIKit/UIImage+TSRoundedCorner.swift"; sourceTree = "<group>"; };
+		F24E28C649C99F58083FED832158A100 /* UIViewController+TSVisible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+TSVisible.swift"; path = "Sources/UIKit/UIViewController+TSVisible.swift"; sourceTree = "<group>"; };
+		F49A3A3F4E83DB9B8DA0CDEE1B2F9EE7 /* Pods-TYWechat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYWechat-Info.plist"; sourceTree = "<group>"; };
+		F5B337C1F5C684E9163AC6EFA913348F /* FileManager+TSExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+TSExtension.swift"; path = "Sources/Foundation/FileManager+TSExtension.swift"; sourceTree = "<group>"; };
+		F6888FB7B610A5A19975211F1B348F57 /* TimedSilver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimedSilver-umbrella.h"; sourceTree = "<group>"; };
+		F7719201E3B98DF9C66327ED0FD921F5 /* UIControl+TSSound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+TSSound.swift"; path = "Sources/UIKit/UIControl+TSSound.swift"; sourceTree = "<group>"; };
+		FB462F92CF565868C6F3E80E1AE65610 /* UIButton+TSTouchArea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+TSTouchArea.swift"; path = "Sources/UIKit/UIButton+TSTouchArea.swift"; sourceTree = "<group>"; };
+		FC540287D4FD40647B07E4A1DE624CDB /* Pods-TYWechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYWechat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05C12D8F1A92D872CAD39514B5B09A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3241F1CDED32C97E79BCEB9FC55E1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13536623D64C028F48A1C7B5D601818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD92E13E2635989098F06A4C12B7D2B5 /* AVFoundation.framework in Frameworks */,
+				FA68E1A6E8F99BA9C33DFC270C4CB4B9 /* Foundation.framework in Frameworks */,
+				D7AA3ABD7CF79AA56514844FBDE75845 /* QuartzCore.framework in Frameworks */,
+				111F516D4975DD54E66008AAB50A95B1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC596D86D0343A1D8A62E42D4643605 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8C253F117FB78E32CF59BBE76BC95D9 /* SwiftGen */,
+				F24BCF1DE031EC3D3C95FAB6DD949911 /* TimedSilver */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24E341A342798D4A5C933FA70A2A2ECB /* Pods-TYWechat */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A2889E3E960B281460C5BC1F745B3 /* Pods-TYWechat.modulemap */,
+				CC3D23344396BC719CF748433C21A698 /* Pods-TYWechat-acknowledgements.markdown */,
+				6F84A3369B0B19A3CC560100553A8376 /* Pods-TYWechat-acknowledgements.plist */,
+				45681B2DC3BD7B68DA15D436A8338819 /* Pods-TYWechat-dummy.m */,
+				3140939ED9ACDD83B41FA470C50B260C /* Pods-TYWechat-frameworks.sh */,
+				F49A3A3F4E83DB9B8DA0CDEE1B2F9EE7 /* Pods-TYWechat-Info.plist */,
+				46628C4B5AD6AEB25FB646D568C49332 /* Pods-TYWechat-umbrella.h */,
+				FC540287D4FD40647B07E4A1DE624CDB /* Pods-TYWechat.debug.xcconfig */,
+				DE0E0778DAF5CB9D0AAA904EECA2D5B8 /* Pods-TYWechat.release.xcconfig */,
+			);
+			name = "Pods-TYWechat";
+			path = "Target Support Files/Pods-TYWechat";
+			sourceTree = "<group>";
+		};
+		3250A9F840FDD14B86043374E61FD95F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28970D287ABADCCCDA855F017A390D3B /* Pods_TYWechat.framework */,
+				DA9087280A02EF781BE60EEE190D0F92 /* TimedSilver.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50793352A58568C1096381D0BE1AA99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94717ABCCEE60261C3F8F86247D62BCF /* TimedSilver.modulemap */,
+				EAB7EBBA8A41C8C4F6A80750E7CD6324 /* TimedSilver.xcconfig */,
+				83CB4BADBD142AF92C6474DF188C39B7 /* TimedSilver-dummy.m */,
+				56CC04927CFF0F111AE8871E470933CF /* TimedSilver-Info.plist */,
+				375AC3470D17D8D7E7B0097402389EA3 /* TimedSilver-prefix.pch */,
+				F6888FB7B610A5A19975211F1B348F57 /* TimedSilver-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TimedSilver";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFAD47C5CFD4D5C2330C7869E47D69BE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFAD47C5CFD4D5C2330C7869E47D69BE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				13432508CCC4BAC877F540434BD497A5 /* AVFoundation.framework */,
+				279138F4E945D7E64ACF16E4D4FF3283 /* Foundation.framework */,
+				E25DDB89E0E6C0B8D9E8E5C981FF6AE2 /* QuartzCore.framework */,
+				E02F4D40DDE4C09E0F960CE8723DF05B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA04FA64003A28AD7312E9AB92FF7030 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F8934104AA455445CC42C89B62CF3F1 /* SwiftGen.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGen";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				0FC596D86D0343A1D8A62E42D4643605 /* Pods */,
+				3250A9F840FDD14B86043374E61FD95F /* Products */,
+				D8FC4740D42EA87954035E5D56C85B1C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D8FC4740D42EA87954035E5D56C85B1C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24E341A342798D4A5C933FA70A2A2ECB /* Pods-TYWechat */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E8C253F117FB78E32CF59BBE76BC95D9 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				CA04FA64003A28AD7312E9AB92FF7030 /* Support Files */,
+			);
+			name = SwiftGen;
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		F24BCF1DE031EC3D3C95FAB6DD949911 /* TimedSilver */ = {
+			isa = PBXGroup;
+			children = (
+				11A59D8E04997698C12AB1D804923C61 /* Array+TSExtension.swift */,
+				353DF444ABAB34916D7A7EC2B7A0252B /* Bundle+TSExtension.swift */,
+				6979670304EEFA4B719CE909FB9FC6FF /* CGSize+TSExtension.swift */,
+				43FD81F6BAD6F62747DEBC816383B932 /* Data+TSExtension.swift */,
+				621AB02191580B69F2ACCBD5B29CE483 /* Date+TSExtension.swift */,
+				A178350134F6768F4E9B410881261C1B /* Dictionary+TSExtension.swift */,
+				A8C923EDE5C1A302232E3E57E019A0DC /* DispatchQueue+TSExtension.swift */,
+				427F5AB454D6C7BFEF55C80399750510 /* Double+TSExtension.swift */,
+				F5B337C1F5C684E9163AC6EFA913348F /* FileManager+TSExtension.swift */,
+				41747F83B4256A46D447FC049B89FCBC /* IndexPath+TSOffset.swift */,
+				466541C9D2EA2F6BF4799683D45A2368 /* IndexSet+TSExtension.swift */,
+				0D7C499DC78AC82CCBBDB982B64DD7DF /* NotificationCenter+TSBlock.swift */,
+				0AE8584DE4C56A2458927B1C8C9C086D /* NSDictionary+TSExtension.swift */,
+				67D8084434558752FCBC29486ACA574F /* NSObject+TSExtension.swift */,
+				CAB70537D1A5E41C8A3C387DA78C210F /* NSRange+TSExtension.swift */,
+				4DEA93CC874E04D705B0873D47A607FF /* NSString+TSExtension.swift */,
+				9834584906532AE8FCBEAF7438F9E6B4 /* String+TSCrypto.swift */,
+				0F68C05178163F8322B610EB5F1094F1 /* String+TSExtension.swift */,
+				CE3DA65DD27E375A56F0C3FAF92501AE /* TimedSilverHeader.h */,
+				A50970661F3E3F67D130D4A8814A9E7C /* Timer+TSBlock.swift */,
+				C9B9DF56EA0620B693FE06F76AE5F766 /* UIAlertController+TSExtension.swift */,
+				0C03CDD7D64C785BF4E74FFE21B2D501 /* UIApplication+TSExtension.swift */,
+				B76E99D15D2B7DFEB5AD6793C82DAC8D /* UIButton+TSExtension.swift */,
+				FB462F92CF565868C6F3E80E1AE65610 /* UIButton+TSTouchArea.swift */,
+				12AA5813D1EBD34198D9E63558226CDA /* UICollectionView+TSExtension.swift */,
+				69B2334507FF59772F20A96D5131C626 /* UICollectionView+TSGeneric.swift */,
+				5A9164EEFFA8F86B4995E311D4503075 /* UIColor+TSExtension.swift */,
+				0D2C5671E11B8279F45221310117FA47 /* UIControl+TSExtension.swift */,
+				F7719201E3B98DF9C66327ED0FD921F5 /* UIControl+TSSound.swift */,
+				3B2F113BEA733CBA21DC00D258369A51 /* UIDevice+TSExtension.swift */,
+				961FD353924280AF07B031577C370E60 /* UIDevice+TSType.swift */,
+				A31FE7EB949D9B739AE591201F372775 /* UIImage+TSExtension.swift */,
+				75F1FC99E52F1EA0EFDAF6FD74FEF2A7 /* UIImage+TSLaunchImage.swift */,
+				9D40610B3052D9EA51777E18AE8FC8C4 /* UIImage+TSOrientation.swift */,
+				BFBF30BFB7AE2581CC3F9A9FC0681585 /* UIImage+TSResize.swift */,
+				F1C9B6F44F1E53B70833FD92271F24FD /* UIImage+TSRoundedCorner.swift */,
+				E09D9863546513544ECE13268E1A00CD /* UILabel+TSExtension.swift */,
+				82141B3DD29EE9D332A65588EE7EAEDB /* UINavigationController+TSExtension.swift */,
+				DF8648903280F6FC81DF8EE6374B9ECC /* UINavigationItem+TSExtension.swift */,
+				5370B77DE174352996C9A7E6DFE9D0B3 /* UIScreen+TSExtension.swift */,
+				914B48A09F5DDC4E2488E915D6B6CFF4 /* UIScrollView+TSExtension.swift */,
+				5432F303249DE2B96C846A79A4F7F7D6 /* UIScrollView+TSPage.swift */,
+				72F0ED39B3FD02B8836E3032DF600590 /* UISearchBar+TSExtension.swift */,
+				A9D1FF96285060384C57D17FEFCC091A /* UITableView+TSExtension.swift */,
+				5F5A2FE995B343D36447F82BD02DABC4 /* UITableView+TSGeneric.swift */,
+				4FFC89CD16260035453B43D24B4192B2 /* UITableView+TSiOS7SettingStyle.swift */,
+				5F8C55619832E0FD4A1873A0BD143193 /* UIView+TSExtension.swift */,
+				1339ED8647BD4C2BFD5642CCC29F16FD /* UIView+TSFrame.swift */,
+				9857105096649F520964ECF0BBB2214B /* UIView+TSGestureBlock.swift */,
+				03C5D5897227C299C0AA12C5E753975B /* UIViewController+TSExtension.swift */,
+				F24E28C649C99F58083FED832158A100 /* UIViewController+TSVisible.swift */,
+				D93488BF7878A6FFD7BD11AFECACA469 /* UIWindow+TSHierarchy.swift */,
+				9186F04B2D2301C7BF05BF16FC02D4AF /* URLRequest+TScURLCommand.swift */,
+				82AA88D98931E3EB95A63D4A87DC1E12 /* UserDefaults+TSArchiveData.swift */,
+				85F012F7F988FC1B6FB1CF70847F2ACD /* UserDefaults+TSExtension.swift */,
+				B50793352A58568C1096381D0BE1AA99 /* Support Files */,
+			);
+			name = TimedSilver;
+			path = TimedSilver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15F7B62AECE642DB7A3646EFDEC87619 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9847818C551763B103951C2D4563530 /* TimedSilver-umbrella.h in Headers */,
+				5C61CA14C0A923888841B26B313207C9 /* TimedSilverHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8B77DB47B5EF337FF8B934F27F96A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3360F73C30254D9905F180652E396EE6 /* Pods-TYWechat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		775343111F78DE81C288C6D616398C55 /* TimedSilver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9914165FE785D08C84A7C4E199B785BC /* Build configuration list for PBXNativeTarget "TimedSilver" */;
+			buildPhases = (
+				15F7B62AECE642DB7A3646EFDEC87619 /* Headers */,
+				59E224260BAA69498CFAE6E44CE81239 /* Sources */,
+				D13536623D64C028F48A1C7B5D601818 /* Frameworks */,
+				13D204F8700C750E3D2A81B5784F1526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimedSilver;
+			productName = TimedSilver;
+			productReference = DA9087280A02EF781BE60EEE190D0F92 /* TimedSilver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BB06D52C4B4B23BA59EB0E958FCE0E9 /* Pods-TYWechat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7932BB550B36755EB616FAD3D3D4057A /* Build configuration list for PBXNativeTarget "Pods-TYWechat" */;
+			buildPhases = (
+				FF8B77DB47B5EF337FF8B934F27F96A1 /* Headers */,
+				F2014F165B61ED3006D0680D9EFC004A /* Sources */,
+				05C12D8F1A92D872CAD39514B5B09A4C /* Frameworks */,
+				16478D158F99D96D81DAD36C9E799FA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F982468DDA2C673DDE361D8C31EA8984 /* PBXTargetDependency */,
+				DA5ECE059AF13CA303B7834698EF4988 /* PBXTargetDependency */,
+			);
+			name = "Pods-TYWechat";
+			productName = "Pods-TYWechat";
+			productReference = 28970D287ABADCCCDA855F017A390D3B /* Pods_TYWechat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3250A9F840FDD14B86043374E61FD95F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BB06D52C4B4B23BA59EB0E958FCE0E9 /* Pods-TYWechat */,
+				1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */,
+				775343111F78DE81C288C6D616398C55 /* TimedSilver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13D204F8700C750E3D2A81B5784F1526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16478D158F99D96D81DAD36C9E799FA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59E224260BAA69498CFAE6E44CE81239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56411F219F78921B370AD53F7BC19760 /* Array+TSExtension.swift in Sources */,
+				3495AB518B228C93749118C841488A26 /* Bundle+TSExtension.swift in Sources */,
+				16390ED0E3AE7422991BF2FB8F33B38B /* CGSize+TSExtension.swift in Sources */,
+				7D033B8E2FF418BFAFDC1FFD9513233A /* Data+TSExtension.swift in Sources */,
+				D931767A8DAC09D0FC03506AD255DBC3 /* Date+TSExtension.swift in Sources */,
+				0CA3EF72AF44D86609D9A8422011C27C /* Dictionary+TSExtension.swift in Sources */,
+				59F8DA7211395682122F544B4C2913FA /* DispatchQueue+TSExtension.swift in Sources */,
+				BC3424362843615A95A1F6DBF2DE89AC /* Double+TSExtension.swift in Sources */,
+				BE840B40C9BFE639888179B763F46C41 /* FileManager+TSExtension.swift in Sources */,
+				554030F32858A15D65DE1CB8F06F0003 /* IndexPath+TSOffset.swift in Sources */,
+				C13F73C0ED683DCE601B7EE42EDAA406 /* IndexSet+TSExtension.swift in Sources */,
+				A2FCDE3F816F98AA3B07B4693BDD6209 /* NotificationCenter+TSBlock.swift in Sources */,
+				4F810E105F8F113660929FA915BCA3D9 /* NSDictionary+TSExtension.swift in Sources */,
+				2BEA8250F38DDF7BF0F7D4CB0CA05F1E /* NSObject+TSExtension.swift in Sources */,
+				1E09F3EA18362E4D3066425724BB5526 /* NSRange+TSExtension.swift in Sources */,
+				194295C615D344CCDF02391FEBD49864 /* NSString+TSExtension.swift in Sources */,
+				8800B1D5FABAAE6F7CF06E0B51CD4121 /* String+TSCrypto.swift in Sources */,
+				77E6546FFF6720C2E90CC592BBF5939F /* String+TSExtension.swift in Sources */,
+				D02A5D977A3FFBE3B37C73C671A2BAC5 /* TimedSilver-dummy.m in Sources */,
+				7768B4243BE14F6C655D88E6B6431FE5 /* Timer+TSBlock.swift in Sources */,
+				127111952E0EC35F1A65A5DD50F16958 /* UIAlertController+TSExtension.swift in Sources */,
+				6AB33096314A9FBEEAD2C4801DC84FDF /* UIApplication+TSExtension.swift in Sources */,
+				945A9EAD833F781C0ECB1C6770717EA6 /* UIButton+TSExtension.swift in Sources */,
+				B45E89BA82ECABB84B3645AE7AB2D6C9 /* UIButton+TSTouchArea.swift in Sources */,
+				6AB4B607FAC3C2413B4EB3A77831F748 /* UICollectionView+TSExtension.swift in Sources */,
+				62929B60F2F6671D0C0D3B687B74B5A9 /* UICollectionView+TSGeneric.swift in Sources */,
+				5C53D2EB9C98463B8EFE069DB9298B59 /* UIColor+TSExtension.swift in Sources */,
+				6095481B0C62738222E8CA49E30EB240 /* UIControl+TSExtension.swift in Sources */,
+				811A9F9424E89B7339BC8C6BA8908FD2 /* UIControl+TSSound.swift in Sources */,
+				24F1D444335D324509DFC6CA213097FF /* UIDevice+TSExtension.swift in Sources */,
+				4313B35198A9042F2AD1FCC3292197B4 /* UIDevice+TSType.swift in Sources */,
+				7955FA28F2A92F4DA7F9A6BE1E43517D /* UIImage+TSExtension.swift in Sources */,
+				3EF4D3BA3E3BAA8FD37CFA120F2BCAB5 /* UIImage+TSLaunchImage.swift in Sources */,
+				14B797C150975B7C83F36B4092B651B8 /* UIImage+TSOrientation.swift in Sources */,
+				37E6319BB3A4821B9C27F84A040FAEBD /* UIImage+TSResize.swift in Sources */,
+				D2A950CE84265F4432FABC747F820AD3 /* UIImage+TSRoundedCorner.swift in Sources */,
+				56BCA6D772B0063FEA68AB2F980A9B8D /* UILabel+TSExtension.swift in Sources */,
+				4AFD6D07E3865E7534090C758C33A239 /* UINavigationController+TSExtension.swift in Sources */,
+				EC9B8F82491F4565D3E1CB31E2717B26 /* UINavigationItem+TSExtension.swift in Sources */,
+				891355A6F78CE77CDD4491FC4F92FD35 /* UIScreen+TSExtension.swift in Sources */,
+				CBCB13512BD430FD0DDC19ADC6404E10 /* UIScrollView+TSExtension.swift in Sources */,
+				536B1B7D17F096B4495C4CC4F56C3B62 /* UIScrollView+TSPage.swift in Sources */,
+				FBD558DA211A366862E4F6A9586F80D3 /* UISearchBar+TSExtension.swift in Sources */,
+				181A04C60A19471588C6151F3D6BE15E /* UITableView+TSExtension.swift in Sources */,
+				C16668DFB44BED3810F67FD1AD6F5C9E /* UITableView+TSGeneric.swift in Sources */,
+				016AA130806F64C8762F6B401BA61EC3 /* UITableView+TSiOS7SettingStyle.swift in Sources */,
+				893CF7B0459C5BFDB538E71F7887339B /* UIView+TSExtension.swift in Sources */,
+				248B81ABC4D8BF8554F798C50DE1D8E2 /* UIView+TSFrame.swift in Sources */,
+				61538E8476ADA6983DB7573AB2DB8020 /* UIView+TSGestureBlock.swift in Sources */,
+				3C20DDF6D2B630EC6944C9A7A2361B1A /* UIViewController+TSExtension.swift in Sources */,
+				2E975EC213632ED8AF2EAFB74E581ED4 /* UIViewController+TSVisible.swift in Sources */,
+				C42A18D6C89B01B8D36E37D4B51E3BDF /* UIWindow+TSHierarchy.swift in Sources */,
+				9EC1088272BCF7E459A82CEAE3DE8441 /* URLRequest+TScURLCommand.swift in Sources */,
+				76B4E89DC5F195F33074B7757ADD8B0B /* UserDefaults+TSArchiveData.swift in Sources */,
+				A4EA4861A75422FBE228AEE58ABC14F7 /* UserDefaults+TSExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2014F165B61ED3006D0680D9EFC004A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7F4F326BAD7B3FD41EBCF8CE321A5D /* Pods-TYWechat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA5ECE059AF13CA303B7834698EF4988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TimedSilver;
+			target = 775343111F78DE81C288C6D616398C55 /* TimedSilver */;
+			targetProxy = B27825831EE45BDB39C27B7C2D8CD438 /* PBXContainerItemProxy */;
+		};
+		F982468DDA2C673DDE361D8C31EA8984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = 8C0BC9D041C513E50FFE9DB946531573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0152319E92C691CA0616E5AC70A03F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB7EBBA8A41C8C4F6A80750E7CD6324 /* TimedSilver.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimedSilver/TimedSilver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimedSilver/TimedSilver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TimedSilver/TimedSilver.modulemap";
+				PRODUCT_MODULE_NAME = TimedSilver;
+				PRODUCT_NAME = TimedSilver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3AFE9CEE084F0DDA177DB1B7B202812A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8934104AA455445CC42C89B62CF3F1 /* SwiftGen.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D9CD987F0CE10F1F9B4BA349FE4B5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8934104AA455445CC42C89B62CF3F1 /* SwiftGen.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5F38E204818B5CF969F9AFBFB86824D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB7EBBA8A41C8C4F6A80750E7CD6324 /* TimedSilver.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimedSilver/TimedSilver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimedSilver/TimedSilver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TimedSilver/TimedSilver.modulemap";
+				PRODUCT_MODULE_NAME = TimedSilver;
+				PRODUCT_NAME = TimedSilver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD4EDAF36932EC93E9DAE2CBDAEA6AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC540287D4FD40647B07E4A1DE624CDB /* Pods-TYWechat.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYWechat/Pods-TYWechat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYWechat/Pods-TYWechat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5B3787450B4A1249D163B83B9E7E211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0E0778DAF5CB9D0AAA904EECA2D5B8 /* Pods-TYWechat.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYWechat/Pods-TYWechat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYWechat/Pods-TYWechat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7932BB550B36755EB616FAD3D3D4057A /* Build configuration list for PBXNativeTarget "Pods-TYWechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4EDAF36932EC93E9DAE2CBDAEA6AD6 /* Debug */,
+				E5B3787450B4A1249D163B83B9E7E211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9914165FE785D08C84A7C4E199B785BC /* Build configuration list for PBXNativeTarget "TimedSilver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F38E204818B5CF969F9AFBFB86824D6 /* Debug */,
+				0152319E92C691CA0616E5AC70A03F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB296D1C543ACA89207838196BB823E7 /* Build configuration list for PBXAggregateTarget "SwiftGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9CD987F0CE10F1F9B4BA349FE4B5EC /* Debug */,
+				3AFE9CEE084F0DDA177DB1B7B202812A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_TYWechat {
+  umbrella header "Pods-TYWechat-umbrella.h"
+
+  export *
+  module * { export * }
+}

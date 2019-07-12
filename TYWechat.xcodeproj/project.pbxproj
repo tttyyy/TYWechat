@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,21 @@
 		8B05E37622D869DE00278378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B05E37422D869DE00278378 /* LaunchScreen.storyboard */; };
 		8B05E38122D869DE00278378 /* TYWechatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E38022D869DE00278378 /* TYWechatTests.swift */; };
 		8B05E38C22D869DE00278378 /* TYWechatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E38B22D869DE00278378 /* TYWechatUITests.swift */; };
+		8B05E39B22D86A4B00278378 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B05E39A22D86A4B00278378 /* Media.xcassets */; };
+		8B05E39F22D8703D00278378 /* MediaAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E39E22D8703D00278378 /* MediaAsset.swift */; };
+		8B05E3A122D872D200278378 /* TYTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E3A022D872D200278378 /* TYTabbarViewController.swift */; };
+		8B05E3A622D8763600278378 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E3A422D8763600278378 /* ChatViewController.swift */; };
+		8B05E3A722D8763600278378 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B05E3A522D8763600278378 /* ChatViewController.xib */; };
+		8B05E3AA22D8765800278378 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E3A822D8765800278378 /* ContactsViewController.swift */; };
+		8B05E3AB22D8765800278378 /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B05E3A922D8765800278378 /* ContactsViewController.xib */; };
+		8B05E3AF22D8768300278378 /* FoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E3AD22D8768300278378 /* FoundViewController.swift */; };
+		8B05E3B022D8768300278378 /* FoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B05E3AE22D8768300278378 /* FoundViewController.xib */; };
+		8B05E3B422D876B200278378 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E3B222D876B200278378 /* MineViewController.swift */; };
+		8B05E3B522D876B200278378 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B05E3B322D876B200278378 /* MineViewController.xib */; };
+		8B05E3B722D87A4C00278378 /* NSObject+Extends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E3B622D87A4C00278378 /* NSObject+Extends.swift */; };
+		8B05E3B922D87B3F00278378 /* UIViewController+TYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E3B822D87B3F00278378 /* UIViewController+TYExtension.swift */; };
+		8B05E3BC22D883D100278378 /* TYColor+TYWechat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05E3BB22D883D100278378 /* TYColor+TYWechat.swift */; };
+		A69F34D5C88460D0A5874862 /* Pods_TYWechat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBF72AE957EF8A7E63B856D /* Pods_TYWechat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01EA11B5E00E5C564D7604F4 /* Pods-TYWechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYWechat.debug.xcconfig"; path = "Target Support Files/Pods-TYWechat/Pods-TYWechat.debug.xcconfig"; sourceTree = "<group>"; };
+		4CBF72AE957EF8A7E63B856D /* Pods_TYWechat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYWechat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		672AFF425C011816B0544063 /* Pods-TYWechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYWechat.release.xcconfig"; path = "Target Support Files/Pods-TYWechat/Pods-TYWechat.release.xcconfig"; sourceTree = "<group>"; };
 		8B05E36822D869DC00278378 /* TYWechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYWechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B05E36B22D869DC00278378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B05E36D22D869DC00278378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,20 @@
 		8B05E38722D869DE00278378 /* TYWechatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYWechatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B05E38B22D869DE00278378 /* TYWechatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYWechatUITests.swift; sourceTree = "<group>"; };
 		8B05E38D22D869DE00278378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B05E39A22D86A4B00278378 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		8B05E39E22D8703D00278378 /* MediaAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaAsset.swift; sourceTree = "<group>"; };
+		8B05E3A022D872D200278378 /* TYTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYTabbarViewController.swift; sourceTree = "<group>"; };
+		8B05E3A422D8763600278378 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8B05E3A522D8763600278378 /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		8B05E3A822D8765800278378 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		8B05E3A922D8765800278378 /* ContactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
+		8B05E3AD22D8768300278378 /* FoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundViewController.swift; sourceTree = "<group>"; };
+		8B05E3AE22D8768300278378 /* FoundViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoundViewController.xib; sourceTree = "<group>"; };
+		8B05E3B222D876B200278378 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		8B05E3B322D876B200278378 /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		8B05E3B622D87A4C00278378 /* NSObject+Extends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extends.swift"; sourceTree = "<group>"; };
+		8B05E3B822D87B3F00278378 /* UIViewController+TYExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TYExtension.swift"; sourceTree = "<group>"; };
+		8B05E3BB22D883D100278378 /* TYColor+TYWechat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TYColor+TYWechat.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69F34D5C88460D0A5874862 /* Pods_TYWechat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		623BAB884CF7094CF12488DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CBF72AE957EF8A7E63B856D /* Pods_TYWechat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B05E35F22D869DC00278378 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,8 @@
 				8B05E37F22D869DE00278378 /* TYWechatTests */,
 				8B05E38A22D869DE00278378 /* TYWechatUITests */,
 				8B05E36922D869DC00278378 /* Products */,
+				8F5251985A4ABCDE42E83DFD /* Pods */,
+				623BAB884CF7094CF12488DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +141,14 @@
 			isa = PBXGroup;
 			children = (
 				8B05E36B22D869DC00278378 /* AppDelegate.swift */,
+				8B05E3A022D872D200278378 /* TYTabbarViewController.swift */,
+				8B05E3BA22D883B100278378 /* General */,
+				8B05E3B122D8769E00278378 /* Mine */,
+				8B05E3AC22D8766100278378 /* Found */,
+				8B05E3A322D8761500278378 /* Contacts */,
+				8B05E3A222D8760700278378 /* Chat */,
 				8B05E36D22D869DC00278378 /* ViewController.swift */,
-				8B05E36F22D869DC00278378 /* Main.storyboard */,
-				8B05E37222D869DE00278378 /* Assets.xcassets */,
-				8B05E37422D869DE00278378 /* LaunchScreen.storyboard */,
+				8B05E39922D86A1800278378 /* Resource */,
 				8B05E37722D869DE00278378 /* Info.plist */,
 			);
 			path = TYWechat;
@@ -125,6 +172,81 @@
 			path = TYWechatUITests;
 			sourceTree = "<group>";
 		};
+		8B05E39922D86A1800278378 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8B05E39D22D8703D00278378 /* AssetsCode */,
+				8B05E39A22D86A4B00278378 /* Media.xcassets */,
+				8B05E36F22D869DC00278378 /* Main.storyboard */,
+				8B05E37222D869DE00278378 /* Assets.xcassets */,
+				8B05E37422D869DE00278378 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8B05E39D22D8703D00278378 /* AssetsCode */ = {
+			isa = PBXGroup;
+			children = (
+				8B05E39E22D8703D00278378 /* MediaAsset.swift */,
+			);
+			path = AssetsCode;
+			sourceTree = "<group>";
+		};
+		8B05E3A222D8760700278378 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				8B05E3A422D8763600278378 /* ChatViewController.swift */,
+				8B05E3A522D8763600278378 /* ChatViewController.xib */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		8B05E3A322D8761500278378 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				8B05E3A822D8765800278378 /* ContactsViewController.swift */,
+				8B05E3A922D8765800278378 /* ContactsViewController.xib */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		8B05E3AC22D8766100278378 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				8B05E3AD22D8768300278378 /* FoundViewController.swift */,
+				8B05E3AE22D8768300278378 /* FoundViewController.xib */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		8B05E3B122D8769E00278378 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				8B05E3B222D876B200278378 /* MineViewController.swift */,
+				8B05E3B322D876B200278378 /* MineViewController.xib */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		8B05E3BA22D883B100278378 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8B05E3B822D87B3F00278378 /* UIViewController+TYExtension.swift */,
+				8B05E3B622D87A4C00278378 /* NSObject+Extends.swift */,
+				8B05E3BB22D883D100278378 /* TYColor+TYWechat.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		8F5251985A4ABCDE42E83DFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01EA11B5E00E5C564D7604F4 /* Pods-TYWechat.debug.xcconfig */,
+				672AFF425C011816B0544063 /* Pods-TYWechat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B05E39022D869DE00278378 /* Build configuration list for PBXNativeTarget "TYWechat" */;
 			buildPhases = (
+				97CDD702BAE82FA0365105E1 /* [CP] Check Pods Manifest.lock */,
 				8B05E36422D869DC00278378 /* Sources */,
 				8B05E36522D869DC00278378 /* Frameworks */,
 				8B05E36622D869DC00278378 /* Resources */,
+				8B05E39C22D86DA900278378 /* ShellScript */,
+				4DF4C29C703BCCA830F8F6D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,8 +355,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B05E37622D869DE00278378 /* LaunchScreen.storyboard in Resources */,
+				8B05E3AB22D8765800278378 /* ContactsViewController.xib in Resources */,
 				8B05E37322D869DE00278378 /* Assets.xcassets in Resources */,
+				8B05E39B22D86A4B00278378 /* Media.xcassets in Resources */,
+				8B05E3A722D8763600278378 /* ChatViewController.xib in Resources */,
 				8B05E37122D869DC00278378 /* Main.storyboard in Resources */,
+				8B05E3B022D8768300278378 /* FoundViewController.xib in Resources */,
+				8B05E3B522D876B200278378 /* MineViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +381,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DF4C29C703BCCA830F8F6D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYWechat/Pods-TYWechat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYWechat/Pods-TYWechat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYWechat/Pods-TYWechat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B05E39C22D86DA900278378 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nINPUT_DIR=$PROJECT_DIR/$PROJECT_NAME/Resource/Media.xcassets\nOUTPUT_DIR=$PROJECT_DIR/$PROJECT_NAME/Resource/AssetsCode\nOUTPUT_NAME=MediaAsset.swift\nmkdir -p \"$OUTPUT_DIR\"\nif which \"$PROJECT_DIR\"/Pods/SwiftGen/bin/swiftgen >/dev/null;\nthen\nset -e\n\"$PROJECT_DIR\"/Pods/SwiftGen/bin/swiftgen xcassets -t swift4 \"$INPUT_DIR\" --output \"$OUTPUT_DIR/$OUTPUT_NAME\"\nelse\necho \"##run echo warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+		};
+		97CDD702BAE82FA0365105E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TYWechat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B05E36422D869DC00278378 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8B05E36E22D869DC00278378 /* ViewController.swift in Sources */,
+				8B05E3B922D87B3F00278378 /* UIViewController+TYExtension.swift in Sources */,
+				8B05E3B722D87A4C00278378 /* NSObject+Extends.swift in Sources */,
+				8B05E39F22D8703D00278378 /* MediaAsset.swift in Sources */,
 				8B05E36C22D869DC00278378 /* AppDelegate.swift in Sources */,
+				8B05E3B422D876B200278378 /* MineViewController.swift in Sources */,
+				8B05E3A622D8763600278378 /* ChatViewController.swift in Sources */,
+				8B05E3A122D872D200278378 /* TYTabbarViewController.swift in Sources */,
+				8B05E3AF22D8768300278378 /* FoundViewController.swift in Sources */,
+				8B05E3AA22D8765800278378 /* ContactsViewController.swift in Sources */,
+				8B05E3BC22D883D100278378 /* TYColor+TYWechat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +628,7 @@
 		};
 		8B05E39122D869DE00278378 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EA11B5E00E5C564D7604F4 /* Pods-TYWechat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +647,7 @@
 		};
 		8B05E39222D869DE00278378 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672AFF425C011816B0544063 /* Pods-TYWechat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
